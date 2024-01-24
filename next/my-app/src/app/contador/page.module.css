@@ -1,0 +1,23 @@
+.App{
+    display:grid;
+    width: 100%;
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+  }
+  .contenedor-principal{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedor-botones{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+  .suma-botones{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    
+  }
