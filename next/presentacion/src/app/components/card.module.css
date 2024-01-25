@@ -1,0 +1,39 @@
+.encabezado{
+    display: flex;
+    width: 631px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.encabezado figure{
+    width: 215px;
+    height: 215px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 191, 230);
+}
+.foto{
+    border-radius: 50%;
+    margin: 12px;
+}
+.text-encabezado {
+    display: flex;
+    flex-direction: column;
+    width: 372px;
+    height: 156px;
+}
+.text-encabezado h1{
+    margin-bottom: 20px;
+    width: 372px;
+}
+.container-icons{
+    display: flex;
+    align-items: flex-start;
+    gap: 26px;
+    margin-top: 20px;
+}
+.icon{
+    margin-right: 5px;
+}
